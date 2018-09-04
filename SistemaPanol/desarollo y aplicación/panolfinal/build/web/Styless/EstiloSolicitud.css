@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-jun-2016, 19:21:19
+    Author     : Miguel Pasten
+*/
+#divPrincipal{
+   margin:15px auto;		
+   padding: 1px;
+} 
+
+#tablaSolicitud{
+    padding: 15px 25px;
+    border: 1px solid white;
+}
+
+/* titulo de encabezado */
+#titulo{
+    text-align: center;
+    margin: 12px;
+    padding: 5px auto;
+    font-size: 30px; 
+    color: yellow; 
+    text-shadow: 3px 3px black;    
+    letter-spacing:5px; 
+}
+
+#tablaSolicitud td {
+    padding-left: 7px;
+}
+
+.etiqueta{
+    color: white;
+    text-align: left;
+    font-size:  1em;
+}
+
+#txtFecha{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px 5px;
+}
+
+#txtComentario{
+    padding-left: 2px;
+    font-weight: bold;
+    border-radius: 5px 5px;
+    width: 400px;
+}
+
+#cbxSede{
+    margin-top: 5px;
+    border-radius: 5px 5px;    
+}
+
+.cantidad {
+    width: 50px;
+    text-align: center;
+}
+
+/* Cuadro de texto que obtiene el foco */
+#txtComentario:focus, #txtSolicitado:focus {
+    background: #A9E2F3;
+}
+
+/* Utilizado solo para pagina de inicio */
+h2{
+    padding: 3px;
+    width: 60%;
+    background: #FACC2E;
+    border-radius: 8px;
+}
+
+/* Titulos de la tabla de detalle */
+th{
+   padding: 2px;
+   background: #08088A;
+   color: white;    
+}
+
+/* columna de cantidad */
+#colCantidad {
+    width: 50px;
+}
+

@@ -1,0 +1,31 @@
+-- CREACION DE TRIGGER PARA LA INSERCION DE REGISTROS A LA TABLA DE STOCK
+CREATE OR REPLACE TRIGGER TRG_INS_PRODUCTO
+AFTER INSERT ON PRODUCTO
+FOR EACH ROW
+DECLARE
+   CURSOR c_cursor IS
+     SELECT ID_SEDE, NOMSEDE
+     FROM SEDE;    
+v_cursor c_cursor%ROWTYPE;
+v_idStock NUMBER := 0; -- Inicializacion de la variable
+BEGIN
+    SELECT COUNT(id_stock) 
+    INTO v_idStock
+    FROM STOCK;
+    
+    OPEN c_cursor;
+    LOOP
+    FETCH c_cursor INTO v_cursor;
+    EXIT WHEN c_cursor%NOTFOUND;
+    
+    v_idStock := v_idStock + 1;
+    
+    -- INSERCION DE DATOS EN LA VARIABLA UTILIZARA PARA LA TABLA QUE SE INSERTARA      
+    INSERT INTO STOCK VALUES (v_idStock, :NEW.codproducto, 0, 0, 0, 0, v_cursor.id_sede);
+
+    END LOOP;
+    CLOSE c_cursor;
+  EXCEPTION
+  WHEN OTHERS THEN
+     DBMS_OUTPUT.PUT_LINE('ERROR DE TRIGGER');
+END;

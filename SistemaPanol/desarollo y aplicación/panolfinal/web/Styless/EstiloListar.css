@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-jun-2016, 19:56:57
+    Author     : HP
+*/
+h1{
+    margin-top: 40px;
+    font-size: 35px;  
+    color: yellow;
+    text-shadow: 3px 3px black;  
+}
+
+h2{
+    font-size: 30px;  
+    color: blue;
+  /*  text-shadow: 2px 2px black;  */
+}
+
+.ingreso{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;     
+}
+
+.tablaLista{
+    margin-top: 2px;
+}
+
+th{
+    background: #335599;
+    color: white;
+}
+
+td{
+    padding: 2px 10px;
+    background: #E0E6F8;
+    border: 1px solid black;
+}
+
+.tdIzq{
+    text-align: left;
+}
+
+.tdCentro{
+    text-align: center;
+}
+
+.tablaLista tr:hover {
+  background-color: #f00;
+  cursor: pointer;
+}
+
+.pieTotal{
+   padding: 6px 3px;
+   background-color: #335599;
+   color: white;
+}

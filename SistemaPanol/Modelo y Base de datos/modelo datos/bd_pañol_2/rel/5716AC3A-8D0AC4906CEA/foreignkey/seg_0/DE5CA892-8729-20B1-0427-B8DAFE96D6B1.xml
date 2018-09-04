@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE5CA892-8729-20B1-0427-B8DAFE96D6B1" name="detaDevol_Producto_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:40 UTC</createdTime>
+<generatorID>0CC8387E-384E-4399-785D-465E6AF54CC4</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<containerWithKeyObject>433D6281-1468-3064-7D41-46097B6C1C78</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>DDCCECA4-0246-61B7-D761-A0450F442245</localFKIndex>
+<keyObject>AA78E148-D0A1-5472-442F-C2342E3B38A7</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

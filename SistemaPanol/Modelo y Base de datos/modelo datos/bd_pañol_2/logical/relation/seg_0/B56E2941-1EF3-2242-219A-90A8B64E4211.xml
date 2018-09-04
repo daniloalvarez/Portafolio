@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stock Producto FK" directorySegmentName="seg_0" id="B56E2941-1EF3-2242-219A-90A8B64E4211">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>503F829B-45F8-63B0-7920-CE5B318458AF</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>733F5E7B-388E-76B9-D0BE-E664D2CB0ACD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3DE4DCC-FC33-EBD1-95FF-70D8403A5DA5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD62B2A3-D40A-5EDE-89EA-F4E4C67AFF99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

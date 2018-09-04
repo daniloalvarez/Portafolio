@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Bd_Pañol_2" id="41230ADF-0152-E73B-F9CF-D49DF9104F68" version="3.5">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>41230ADF-0152-E73B-F9CF-D49DF9104F68</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5AEAEA33-0799-2EC2-B7EF-F7B0E01C9760">
+<designStoragePath>C:\Users\cetecom\Desktop\Modelo Datos Pañol v5 110516\BD_Pañol_1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

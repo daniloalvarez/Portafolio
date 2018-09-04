@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B471E83-9406-7AD4-5E65-4D5909EFC0FA" name="EncaPres">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>BC8C489E-0733-13A3-08FB-8222A5EF1B3D</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Prestamo" id="170221A6-1303-C766-C3D0-AE3F2BF45FDC">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>49B0FEBA-0CAC-96B5-AA2A-1F2A220B331F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicio" id="E9B50787-74E6-FA4C-AB31-4083CFE2F3DB">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>4CE08C09-0258-1D92-EFA4-1455F27DFFF3</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFin" id="B713F29E-BF1D-85E4-E743-E16552B27C4B">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>1730FF24-3EC9-31F1-1A1C-F3B1F0F19009</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EncaSoli_numSolicitud" id="2F157DB9-AECC-53E8-3B45-22F48ED54EF9">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>AF365099-D326-FC57-6578-8AB365A2C231</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>596355FB-D424-E015-4571-272DD9F8CD01</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="479AC9FC-AF59-AAB3-123C-29CF2B41CCA9" referredColumn="596355FB-D424-E015-4571-272DD9F8CD01"/>
+</associations>
+</Column>
+<Column name="comentario" id="3B9C6237-87F3-83B6-41D8-0486013E44D8">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>4875D311-4A79-8574-55A1-8877B40B7369</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEB19882-2B3F-9E22-EE7A-5DD1D0AEA2EB" name="EncaPres_PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>420A0BF0-7216-9B7D-D709-29D6F52ABBF4</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="170221A6-1303-C766-C3D0-AE3F2BF45FDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23BF8F94-0256-5C65-B377-6E37B79105C9" name="EncaPres_EncaSoli_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>43FE9279-7288-6AC5-088A-DF25D6FCF315</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F157DB9-AECC-53E8-3B45-22F48ED54EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

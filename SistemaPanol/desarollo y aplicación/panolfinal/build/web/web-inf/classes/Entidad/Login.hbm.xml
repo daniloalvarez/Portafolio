@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-jul-2016 17:53:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entidad.Login" table="LOGIN" schema="SISTEMAPANOL" optimistic-lock="version">
+        <id name="idLogin" type="big_decimal">
+            <column name="ID_LOGIN" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="rutusuario" type="big_decimal">
+            <column name="RUTUSUARIO" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="idTipousuario" type="big_decimal">
+            <column name="ID_TIPOUSUARIO" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="clave" type="string">
+            <column name="CLAVE" length="20" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

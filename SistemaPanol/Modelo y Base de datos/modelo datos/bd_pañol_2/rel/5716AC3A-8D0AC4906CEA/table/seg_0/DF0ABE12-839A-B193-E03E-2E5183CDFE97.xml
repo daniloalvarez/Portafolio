@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF0ABE12-839A-B193-E03E-2E5183CDFE97" name="EncaSoli">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>844F6860-1A98-3F24-3ECC-ACB750CE4462</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numSolicitud" id="596355FB-D424-E015-4571-272DD9F8CD01">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>4D2FD19D-4856-A611-8393-52DC832DF06D</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaSolicitud" id="9F119D16-83D2-AA6A-4B94-49D651AFBA88">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>F012266B-8136-C4FE-73F7-47F4B5C47FAC</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoSolicitud" id="60992644-69A0-0697-EB95-2E8C4311B1B4">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>1BC630F9-EFF9-B2F0-3B7F-B25CEC0A7C13</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="glosaSolicitud" id="C6081E9A-A84F-295B-E3CC-1728F53C80AF">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>C5653D24-398A-6579-93EF-1FFAEC90F05B</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_rutUsuario" id="9A524F56-D013-BC72-5543-EEDD26D02E69">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>A60453A0-9798-798E-8B86-E46021100DF9</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>95C86EC0-E769-9F06-40A2-3D189937D682</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8440101A-FC74-295F-1481-9AE2F0156578" referredColumn="95C86EC0-E769-9F06-40A2-3D189937D682"/>
+</associations>
+</Column>
+<Column name="Estado" id="BB4EB602-019F-8D07-F8F5-36AA7C434785">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>F90E0AD4-6977-B1C9-FA53-D3585F418D6F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="D2244143-F837-6C6C-8D45-13C4A544B833">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>48E34F2D-E796-9A59-30A1-38704F9F96A2</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CF32B2D-631A-68D9-C247-B238CD817A5B" name="EncaSoli_PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>540C64B8-888B-60B6-B071-3FA4FD7D2D4A</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596355FB-D424-E015-4571-272DD9F8CD01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13A92C94-CC1D-57E0-39E2-EAB65D5057AD" name="EncaSoli_Usuario_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>604FEBA6-948B-FD85-8EE4-210F78B01122</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A524F56-D013-BC72-5543-EEDD26D02E69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

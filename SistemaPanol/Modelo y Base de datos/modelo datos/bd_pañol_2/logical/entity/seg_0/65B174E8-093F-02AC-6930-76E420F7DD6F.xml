@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65B174E8-093F-02AC-6930-76E420F7DD6F" name="Categoria">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>6763D4CF-8E88-D28E-8B6E-6484A057738C</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id categoria" id="1BD5C90C-B221-BDB2-92E0-66EF54DB47F1">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>5D7E1997-51AB-541B-EEEB-ACBBB2EE909D</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="9D75E354-C0DB-F94B-3B0D-1CE451AFAC90">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>282D64A1-6397-BC69-93A5-0E8BFF8AF869</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5612883F-76D1-A2DB-34D9-5D4C7C09A347" name="Categoria_PK">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>B0E293D2-5792-C2A1-B0B0-34AE6F96D3EC</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BD5C90C-B221-BDB2-92E0-66EF54DB47F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

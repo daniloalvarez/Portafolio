@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D6543A5-C8CD-BCD2-D826-2EFCB38E324B" name="Producto">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>A3DE4DCC-FC33-EBD1-95FF-70D8403A5DA5</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Categoria_Id_categoria" id="ED8DFC86-9E31-85BA-186C-9735DA5A8104">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>4F22A52A-72C9-3AA2-F984-E7E1AF48168E</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8ED68EA6-402A-434F-2599-2255AC9CAC67</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82E2DAE-A100-4FE2-3A0C-7BA90F297CF1" referredColumn="8ED68EA6-402A-434F-2599-2255AC9CAC67"/>
+</associations>
+</Column>
+<Column name="codProducto" id="558EA8DE-6E35-A834-D1EC-1E91ACCAEED9">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>716CDCC9-2CE7-BFAA-6134-5F843FFF9E76</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomProducto" id="620AD9F2-B5BC-1708-3792-ACBFD3E39BA4">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>C7C90DDD-1539-0357-6C59-DDB310BF56E7</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagen" id="CDB2637C-3484-F9B1-73F5-F11F08247101">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>0DE5FB22-79E3-6B08-E53A-072BA1846865</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaIngreso" id="9E41D7F6-00F6-3B47-A129-3D2E7C4B9869">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>CA5FFF0F-E025-E327-80A4-FC8E2E8A3367</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="48FD4E49-5DF2-296E-8756-15FBCEFA932A">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>D98151CA-1DA5-4B5A-77DD-6F7D5C323FAA</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="ED30E196-2520-5B4A-B905-5DC8A41E4C26">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>60929A45-C0D8-FD65-E2B0-8713B726D0C6</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comentario" id="02F72B66-19E1-86AD-242F-8BD8B886E2D0">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>E86C10D9-0B1F-8AB3-366B-5A6837C34B86</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sede_Id_Sede" id="71133C1E-AFBD-9498-4676-5F04DA5703E2">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>722F3DEC-C0DB-0E3C-8203-8778CFD85CCE</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B94C517E-E19F-1A40-18B0-5FB9477D9652</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4828E821-4B1A-B289-B030-0A779FFD9CE5" referredColumn="B94C517E-E19F-1A40-18B0-5FB9477D9652"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA78E148-D0A1-5472-442F-C2342E3B38A7" name="Producto_PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>733F5E7B-388E-76B9-D0BE-E664D2CB0ACD</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="558EA8DE-6E35-A834-D1EC-1E91ACCAEED9"/>
+<colUsage columnID="71133C1E-AFBD-9498-4676-5F04DA5703E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50104B0D-CF99-18A5-37CC-0DEB47A70FC1" name="Producto_Categoria_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>4AFCA36F-AE0C-6C72-8674-DB8CD3DA51EC</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED8DFC86-9E31-85BA-186C-9735DA5A8104"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="665D3DDB-227D-AEBF-CB56-9F1F4B2BCFBD" name="Producto_Sede_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>1B578FC2-7189-CBC0-C0AA-C6844CF2C7E7</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71133C1E-AFBD-9498-4676-5F04DA5703E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

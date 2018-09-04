@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-jul-2016 17:53:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entidad.Producto" table="PRODUCTO" schema="SISTEMAPANOL" optimistic-lock="version">
+        <id name="codproducto" type="string">
+            <column name="CODPRODUCTO" length="120" />
+            <generator class="assigned" />
+        </id>
+        <property name="idCategoria" type="big_decimal">
+            <column name="ID_CATEGORIA" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="nomproducto" type="string">
+            <column name="NOMPRODUCTO" length="400" />
+        </property>
+        <property name="imagen" type="blob">
+            <column name="IMAGEN" />
+        </property>
+        <property name="fechaingreso" type="date">
+            <column name="FECHAINGRESO" length="7" />
+        </property>
+        <property name="precio" type="big_decimal">
+            <column name="PRECIO" precision="22" scale="0" />
+        </property>
+        <property name="estado" type="java.lang.Character">
+            <column name="ESTADO" length="1" />
+        </property>
+        <property name="comentario" type="string">
+            <column name="COMENTARIO" length="1200" />
+        </property>
+        <property name="idSede" type="big_decimal">
+            <column name="ID_SEDE" precision="22" scale="0" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

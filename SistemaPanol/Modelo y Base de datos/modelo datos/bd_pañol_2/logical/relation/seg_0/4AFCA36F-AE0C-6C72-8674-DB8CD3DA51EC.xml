@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Producto Categoria FK" directorySegmentName="seg_0" id="4AFCA36F-AE0C-6C72-8674-DB8CD3DA51EC">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>C8C018EA-D3F8-6CC1-E2A5-D15711D872EA</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>5612883F-76D1-A2DB-34D9-5D4C7C09A347</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65B174E8-093F-02AC-6930-76E420F7DD6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3DE4DCC-FC33-EBD1-95FF-70D8403A5DA5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

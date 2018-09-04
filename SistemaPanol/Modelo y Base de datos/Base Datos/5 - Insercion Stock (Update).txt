@@ -1,0 +1,14 @@
+-- ACTUALIZACION DE STOCK PARA EL PRODUCTO CODIGO "NTBK"-----------
+update stock 
+SET MINSTOCK = 2,MAXSTOCK = 7, SALDOSTOCK = 10 
+where producto_codproducto='NTBK' AND PRODUCTO_SEDE_ID_SEDE = 7; 
+
+update stock 
+SET MINSTOCK = 1,MAXSTOCK = 5, SALDOSTOCK = 3 
+where producto_codproducto='NTBK' AND PRODUCTO_SEDE_ID_SEDE = 2; 
+
+update stock 
+SET MINSTOCK = 8,MAXSTOCK = 10, SALDOSTOCK = 5 
+where producto_codproducto='NTBK' AND PRODUCTO_SEDE_ID_SEDE = 4; 
+
+commit;

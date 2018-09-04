@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68C98CC7-91A4-C2A4-F145-AA73EF742F9D" name="Usuario">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>95711709-7214-651D-9D14-9C0AED59163F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rutUsuario" id="95C86EC0-E769-9F06-40A2-3D189937D682">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>8CED39DC-D346-3FF9-AB91-B1059E30276E</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dvUsuario" id="F23C483B-5BD7-0B86-48B8-16DE7EBC0D45">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>D9DCC0A4-6FE6-953E-5C6B-1EB60FB39692</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomUsuario" id="089689F5-5144-607F-4268-09AA44C9B68E">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>AD06AB47-9B48-0CA7-9A07-58CC690F9102</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paternoUsuario" id="9A8526EC-7ECA-72C2-229D-F27540622F61">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>2EB5F9D3-A2A5-3C7F-AAE0-4119CEBD0D8F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maternoUsuario" id="3AA905F8-3340-7EAC-6BDC-C5E35C6FE5D4">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>7A4590BF-4506-76D7-24C2-93E96DC45D45</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mailUsuario" id="848C3B0C-B83A-7A48-EA86-B05A5E5D6A29">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>B4154CD2-2169-A450-3AAA-EF7F531432F4</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fono" id="C21D010B-3316-5895-7529-CD6E2504EC9B">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>DDFCC368-8BB1-7FD0-9EB4-BFFA1D12C134</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sede_Id_Sede" id="483D5C75-00E4-B3E1-F895-53AEF74659D5">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>C1FB6643-2BBA-F6AD-4EDC-C50E416E0F2A</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B94C517E-E19F-1A40-18B0-5FB9477D9652</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F28DD080-697B-F20E-E240-FA451CC2F141" referredColumn="B94C517E-E19F-1A40-18B0-5FB9477D9652"/>
+</associations>
+</Column>
+<Column name="Carrera_Id_Carrera" id="70599B1B-C9FC-3F14-8817-62F0B9845C14">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>FFAA1953-320E-95A4-6ED1-0E23B57DB8D0</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>DC9D153A-829B-1310-FC9B-FDCE114BF76B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="601EFEF4-1985-024C-ECE3-641745C42320" referredColumn="DC9D153A-829B-1310-FC9B-FDCE114BF76B"/>
+</associations>
+</Column>
+<Column name="bloqueoUsuario" id="1305CD46-1FD7-9066-478C-175A6AF07989">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>88C44CF7-D023-2320-27A7-A7967641B84E</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivoBloqueo" id="0328202D-3ED5-15CE-DF79-0FEFCA8FE234">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>3B3E738C-C6A3-D579-C18B-F66EEB57613E</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Login_Id_Login" id="95C2BDE5-8BE2-95A6-A5AA-B6E568BEB059">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>550035C4-7D92-51B4-47DE-3039070FA8A1</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>DCAA4D34-FDF1-4B69-0290-2BD9CAD2FD23</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8D03590-FAA4-D0F0-421F-DC469030A80D" referredColumn="DCAA4D34-FDF1-4B69-0290-2BD9CAD2FD23"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9790CD73-CFBF-069B-B5F9-4DE64CCE3B31" name="Usuario_PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>BD7C2E36-D1C8-1DE5-2CA4-503E5E5FE2A8</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C86EC0-E769-9F06-40A2-3D189937D682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B30DFCC-E64C-7B90-B0B9-5C2DD332F4D6" name="Usuario__IDX">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F1AB0013-B252-0FFE-9D27-664370732629</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="95C2BDE5-8BE2-95A6-A5AA-B6E568BEB059"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF4426AA-48F3-1C2D-AF3B-0CE778BAF41C" name="Usuario_Carrera_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>9173A8B3-ECBC-1659-35D4-2A35FB801FEC</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70599B1B-C9FC-3F14-8817-62F0B9845C14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29675C37-8B8B-18D2-1BB8-1E8DE33D4404" name="Usuario_Login_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>F1AB0013-B252-0FFE-9D27-664370732629</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C2BDE5-8BE2-95A6-A5AA-B6E568BEB059"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ED12DC9-CE46-6E9D-B6D0-3DFD56C4CCA6" name="Usuario_Sede_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>DADBF662-2F9E-A961-CB38-D88E86779E41</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="483D5C75-00E4-B3E1-F895-53AEF74659D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

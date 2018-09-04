@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95711709-7214-651D-9D14-9C0AED59163F" name="Usuario">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>189D307B-93DB-0BCC-78E1-CDFD42CE0F4D</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rutUsuario" id="8CED39DC-D346-3FF9-AB91-B1059E30276E">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>E4D741C8-69FD-8CDA-7C73-E18F9C4D3D6E</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dvUsuario" id="D9DCC0A4-6FE6-953E-5C6B-1EB60FB39692">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>32147D7E-141F-06DF-4972-288B63EB039A</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomUsuario" id="AD06AB47-9B48-0CA7-9A07-58CC690F9102">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>A4C18EAA-A0BA-08FE-15EA-C834E8B86B59</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paternoUsuario" id="2EB5F9D3-A2A5-3C7F-AAE0-4119CEBD0D8F">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>39762ABB-68A5-F5A3-9339-BE2C66AABBA1</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maternoUsuario" id="7A4590BF-4506-76D7-24C2-93E96DC45D45">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>7147E30F-AA4D-D120-3BCE-8F7AE0B1482D</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mailUsuario" id="B4154CD2-2169-A450-3AAA-EF7F531432F4">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>1223D70E-5A83-0347-CE0E-8B944E6E31B2</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fono" id="DDFCC368-8BB1-7FD0-9EB4-BFFA1D12C134">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>15467005-9C3B-B39B-6196-1CE98708C79A</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Sede" id="C1FB6643-2BBA-F6AD-4EDC-C50E416E0F2A">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>DADBF662-2F9E-A961-CB38-D88E86779E41</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>98921771-048E-18C0-5636-2D3A8DDB5E6D</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<referedAttribute>E13B074A-BA17-880A-66C8-DE050C6D0DC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Carrera" id="FFAA1953-320E-95A4-6ED1-0E23B57DB8D0">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>9173A8B3-ECBC-1659-35D4-2A35FB801FEC</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>A54E51FE-9FA3-606F-0685-D6CE01CF233A</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<referedAttribute>A0528752-1C0F-629B-E221-AC309F133ACA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bloqueoUsuario" id="88C44CF7-D023-2320-27A7-A7967641B84E">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>83D19EAC-7DBF-F4C5-DC8A-D0FE520400CB</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivoBloqueo" id="3B3E738C-C6A3-D579-C18B-F66EEB57613E">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>D88B2D88-7A58-381B-9516-07A591BCB42F</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Login" id="550035C4-7D92-51B4-47DE-3039070FA8A1">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>F1AB0013-B252-0FFE-9D27-664370732629</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>61386535-AC84-C343-E3BB-72915BC380AA</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<referedAttribute>9A72E292-7E63-E52F-84CB-CCDEA80EA585</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD7C2E36-D1C8-1DE5-2CA4-503E5E5FE2A8" name="Usuario PK">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>1657E092-00A3-8163-6063-CB6F748166D0</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CED39DC-D346-3FF9-AB91-B1059E30276E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BA3AACC-50ED-0708-5CE6-3A03DDFF5370" name="Carrera">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>16D98B5C-E1D5-17F6-D022-8A14E638C802</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Escuela_Id_Escuela" id="223845B4-8080-403A-5DA0-A2CECF92FE7C">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>9E3BBD10-BE82-E236-2DDC-E30131EE8969</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CD7DA284-DAD8-A594-2F71-AC93168DD30A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B16E9E38-8A11-13E7-6681-C8762EFF686D" referredColumn="CD7DA284-DAD8-A594-2F71-AC93168DD30A"/>
+</associations>
+</Column>
+<Column name="Id_Carrera" id="DC9D153A-829B-1310-FC9B-FDCE114BF76B">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>A0528752-1C0F-629B-E221-AC309F133ACA</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomCarrera" id="478FFCD8-8F82-A3DD-D231-E58556F63F05">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>300E11D0-4FE2-80DC-0D53-A906DED2C366</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B0E24B0-EEEC-579C-A8DC-ED42B7CA8729" name="Carrera_PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>6BE4FDCD-990C-8414-BBA0-18F85C4E74D5</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC9D153A-829B-1310-FC9B-FDCE114BF76B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F9ABBEE-3113-AC07-3DC1-0426A4B2E580" name="Carrera_Escuela_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>1E9E0416-7585-0F2E-D62B-8FC2203718AC</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="223845B4-8080-403A-5DA0-A2CECF92FE7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

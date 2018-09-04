@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1FCF200-5F60-D937-D325-0872B623819F" name="EncaDevol">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>C1B6932F-28BB-55B8-6470-D54E6D6ECB5B</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_devolucion" id="2A981CFD-6E23-1954-C3CF-F1BD1591B53A">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>DADC0330-CBD9-FF5A-93BF-6360D509481C</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="fechaDevolucion" id="DB9F912E-6F5A-0049-F315-91E5A667A184">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>D55DF2AC-4839-4C77-E996-928CA490E68E</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="Id_Prestamo" id="DDBFEB9A-03A5-16E3-A01A-9496DC482D31">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>2D5528F1-681C-BE13-D482-694A48247E90</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>BF4F9E5F-DB0E-5146-936B-B95BE39DC546</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>49B0FEBA-0CAC-96B5-AA2A-1F2A220B331F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="comentario" id="0392354D-39A6-1C03-58E3-559D1262889E">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>16B6721A-229F-BC00-63F0-10CB52D943C2</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0206EEF-0453-89FB-B6DF-825974764EBB" name="EncaDevolucion_PK">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>5C4D01DD-8B74-76B5-90E7-F14A4011F86A</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A981CFD-6E23-1954-C3CF-F1BD1591B53A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

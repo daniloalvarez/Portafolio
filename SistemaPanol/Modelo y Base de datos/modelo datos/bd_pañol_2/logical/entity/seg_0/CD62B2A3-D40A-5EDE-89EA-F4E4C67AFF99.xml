@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD62B2A3-D40A-5EDE-89EA-F4E4C67AFF99" name="Stock">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>1839160D-074F-06FF-63CC-7CB6347A53AC</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codProducto" id="45036706-9A7B-2438-B598-EB0AFDA7F235">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>B56E2941-1EF3-2242-219A-90A8B64E4211</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>FBAFBD4C-CED1-CE73-85FF-AC8EEDF62E66</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>716CDCC9-2CE7-BFAA-6134-5F843FFF9E76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="PrestamoStock" id="A4CE27AA-1EC8-43ED-8025-7AC112602D6A">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>1DD66833-FFF2-3A50-BE5A-67A3ACBEC852</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="SaldoStock" id="8E0D654F-54F0-EB31-6C45-2FBED3D41CD1">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>796065BD-3997-43EC-D095-B29E8BD43D82</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="minStock" id="F0DFBFFF-B678-6B54-935E-76165D1E68F6">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>5934E789-2F2D-A64A-901C-7DD36A894CD6</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="maxStock" id="9E5F08C1-510A-5DC7-67B4-97967214BB65">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>5DBE621C-6578-79CC-7627-6057E40D59A5</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Id Sede" id="6EAF3A54-0C9E-2697-7FC9-8C9337DB0200">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>B56E2941-1EF3-2242-219A-90A8B64E4211</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>EACD8AF5-A0D3-B538-98BA-F759B7A2B4EF</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>722F3DEC-C0DB-0E3C-8203-8778CFD85CCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="id_stock" id="694C5FC5-9E1F-1ECB-0BCE-24123BCE75D1">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:30:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D873455-AB58-F201-85EC-B4FDC4D0F0F0" name="{entity} PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:30:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>694C5FC5-9E1F-1ECB-0BCE-24123BCE75D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

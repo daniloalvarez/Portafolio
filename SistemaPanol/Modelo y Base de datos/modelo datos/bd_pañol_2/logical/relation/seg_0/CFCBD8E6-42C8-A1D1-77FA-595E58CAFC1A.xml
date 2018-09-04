@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="detaDevolucion EncaDevolucion FK" directorySegmentName="seg_0" id="CFCBD8E6-42C8-A1D1-77FA-595E58CAFC1A">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>0E9E8A44-A6F3-D526-7513-8945B39CAB0B</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>E0206EEF-0453-89FB-B6DF-825974764EBB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1FCF200-5F60-D937-D325-0872B623819F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4E23F6DF-5F9C-FA26-35C8-3B1B531B77EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

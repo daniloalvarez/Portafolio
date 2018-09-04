@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56E8FBCA-0E71-34C3-4E86-C3855B8B7B88" name="detaPres">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>68619533-0B72-EBA6-4C7E-A581416A1611</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Prestamo" id="CA6055DC-BD07-102D-5D7D-39BE432F5461">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>E9026532-CB94-C477-A7C5-3012DF1E6E02</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>071BFB25-04BD-F28C-8788-3A3EB447934A</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>49B0FEBA-0CAC-96B5-AA2A-1F2A220B331F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="linea" id="37C116A0-152B-FDE3-E108-CABB8D8BA78B">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>787A2212-907A-D121-8E4C-BFEA9147308A</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="codProducto" id="56A1235F-2F21-5D05-8A73-4D14EE3BF7F0">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>027D2AA3-1906-02FD-4644-75774DEEBA0C</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>0C75B661-9500-E2FB-909C-80FA33BDB248</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>716CDCC9-2CE7-BFAA-6134-5F843FFF9E76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="cantPrestamo" id="102D1D1D-E036-AEEE-B492-392EF1CD00E2">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>B562BB43-712F-C5F5-10B2-1C13E045485C</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Id Sede" id="D18BD9AE-85C6-3A98-81C0-77638609965B">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>027D2AA3-1906-02FD-4644-75774DEEBA0C</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>8D0D834E-6D45-6686-591A-84917529D325</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>722F3DEC-C0DB-0E3C-8203-8778CFD85CCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

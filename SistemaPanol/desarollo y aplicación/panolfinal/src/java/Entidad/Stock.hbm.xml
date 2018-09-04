@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-jul-2016 17:53:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entidad.Stock" table="STOCK" schema="SISTEMAPANOL" optimistic-lock="version">
+        <id name="idStock" type="big_decimal">
+            <column name="ID_STOCK" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="productoCodproducto" type="string">
+            <column name="PRODUCTO_CODPRODUCTO" length="120" not-null="true" />
+        </property>
+        <property name="prestamostock" type="big_decimal">
+            <column name="PRESTAMOSTOCK" precision="22" scale="0" />
+        </property>
+        <property name="saldostock" type="big_decimal">
+            <column name="SALDOSTOCK" precision="22" scale="0" />
+        </property>
+        <property name="minstock" type="big_decimal">
+            <column name="MINSTOCK" precision="22" scale="0" />
+        </property>
+        <property name="maxstock" type="big_decimal">
+            <column name="MAXSTOCK" precision="22" scale="0" />
+        </property>
+        <property name="productoSedeIdSede" type="big_decimal">
+            <column name="PRODUCTO_SEDE_ID_SEDE" precision="22" scale="0" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

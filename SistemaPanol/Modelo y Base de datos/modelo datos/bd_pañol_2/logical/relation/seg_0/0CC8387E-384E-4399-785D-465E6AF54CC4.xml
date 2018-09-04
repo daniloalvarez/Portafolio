@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="detaDevolucion Producto FK" directorySegmentName="seg_0" id="0CC8387E-384E-4399-785D-465E6AF54CC4">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>A3E3CCFA-26FC-E768-0A9A-52C602735F6A</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>733F5E7B-388E-76B9-D0BE-E664D2CB0ACD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3DE4DCC-FC33-EBD1-95FF-70D8403A5DA5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4E23F6DF-5F9C-FA26-35C8-3B1B531B77EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario Carrera FK" directorySegmentName="seg_0" id="9173A8B3-ECBC-1659-35D4-2A35FB801FEC">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>3A9EFBAC-FB3D-68D6-64CA-F4236AA6C92E</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>6BE4FDCD-990C-8414-BBA0-18F85C4E74D5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>16D98B5C-E1D5-17F6-D022-8A14E638C802</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95711709-7214-651D-9D14-9C0AED59163F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

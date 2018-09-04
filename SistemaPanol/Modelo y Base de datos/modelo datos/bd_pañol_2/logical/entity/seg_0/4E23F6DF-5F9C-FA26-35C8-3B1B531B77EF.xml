@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E23F6DF-5F9C-FA26-35C8-3B1B531B77EF" name="detaDevol">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>7BAAB4A0-71B9-22B0-6870-4C9C84902F7B</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_devolucion" id="A985C9C0-508F-4BE0-33B4-BC5F4C865D2F">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>CFCBD8E6-42C8-A1D1-77FA-595E58CAFC1A</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>BC169117-1D6B-DA1B-46AC-0B6F12EDF0E0</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>2A981CFD-6E23-1954-C3CF-F1BD1591B53A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="linea" id="53B54032-E393-0967-B3FD-4C7EC004F12A">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>20D42A49-D4F2-5E9A-51E9-971822D6C479</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="codProducto" id="FB8201B8-C4B0-9AF9-A1A0-EDF42D9AF56D">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>0CC8387E-384E-4399-785D-465E6AF54CC4</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>30E71B84-C8A7-313A-1309-9F65B9295900</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>716CDCC9-2CE7-BFAA-6134-5F843FFF9E76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="cantDevolucion" id="A31F6692-23A9-7295-B94A-4481B9DED77F">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>01CA17DA-306F-C481-A18D-E17B0D08C4B8</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Id Sede" id="E406C5D0-2FA5-115C-42C8-3515693BF67F">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>0CC8387E-384E-4399-785D-465E6AF54CC4</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>A827E762-DB05-5F1F-09EB-0A14A5D2DE60</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>722F3DEC-C0DB-0E3C-8203-8778CFD85CCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37795E2D-A9CA-146B-7D64-2A9AB8EAF825" name="{entity} PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:27:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

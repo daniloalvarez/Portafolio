@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Carrera Escuela FK" directorySegmentName="seg_0" id="1E9E0416-7585-0F2E-D62B-8FC2203718AC">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>3082D9FC-E482-AC6D-E14C-7E624235CE0F</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>B696A386-B2E7-0FF9-8554-1F7FAC9F7339</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C68460A-4A1D-EDC7-6564-039D7A799239</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16D98B5C-E1D5-17F6-D022-8A14E638C802</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

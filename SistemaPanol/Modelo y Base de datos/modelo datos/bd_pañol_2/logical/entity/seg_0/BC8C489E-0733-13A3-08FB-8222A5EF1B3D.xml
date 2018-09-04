@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC8C489E-0733-13A3-08FB-8222A5EF1B3D" name="EncaPres">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>DA7CF10F-B667-B720-1FBC-6B6C73DDD149</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Prestamo" id="49B0FEBA-0CAC-96B5-AA2A-1F2A220B331F">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>DF2F5FC2-7C3A-4C80-E22C-F4406A5240F8</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="FechaInicio" id="4CE08C09-0258-1D92-EFA4-1455F27DFFF3">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>285724EF-7C2D-F325-03A6-25EA18E51313</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="FechaFin" id="1730FF24-3EC9-31F1-1A1C-F3B1F0F19009">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>FD75346D-4ABE-1F41-CB04-7ADDDD12CF37</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="numSolicitud" id="AF365099-D326-FC57-6578-8AB365A2C231">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>43FE9279-7288-6AC5-088A-DF25D6FCF315</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>461CF74D-C7F4-7E70-D801-E55464D3550E</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<referedAttribute>4D2FD19D-4856-A611-8393-52DC832DF06D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="comentario" id="4875D311-4A79-8574-55A1-8877B40B7369">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>B81BE361-5EF6-AC0C-42B8-ACEAD433F22D</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="420A0BF0-7216-9B7D-D709-29D6F52ABBF4" name="EncaPrestamo PK">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>8F8B2D93-65DA-4E67-AD1D-9129BFEA27E3</importedID>
+<engineerTo>
+<item key="5716AC3A-A964-9E4D-A5E5-8D0AC4906CEA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49B0FEBA-0CAC-96B5-AA2A-1F2A220B331F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

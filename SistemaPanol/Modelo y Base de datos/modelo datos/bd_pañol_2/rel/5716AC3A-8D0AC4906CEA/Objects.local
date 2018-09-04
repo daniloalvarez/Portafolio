@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="8BA3AACC-50ED-0708-5CE6-3A03DDFF5370" name="Carrera" seqName="seg_0"/>
+   <object objectType="Table" objectID="3BA12A3D-F3DD-4130-633B-82414FB1BF99" name="Categoria" seqName="seg_0"/>
+   <object objectType="Table" objectID="043CFDE6-67CD-CF64-1BDD-AB95F3999C3E" name="EncaDevol" seqName="seg_0"/>
+   <object objectType="Table" objectID="4B471E83-9406-7AD4-5E65-4D5909EFC0FA" name="EncaPres" seqName="seg_0"/>
+   <object objectType="Table" objectID="DF0ABE12-839A-B193-E03E-2E5183CDFE97" name="EncaSoli" seqName="seg_0"/>
+   <object objectType="Table" objectID="0AD3C81A-38D0-FC05-E9C6-F7C983891CE4" name="Escuela" seqName="seg_0"/>
+   <object objectType="Table" objectID="8D5BDB82-6E44-A5A7-5D2A-45153935C287" name="Login" seqName="seg_0"/>
+   <object objectType="Table" objectID="4D6543A5-C8CD-BCD2-D826-2EFCB38E324B" name="Producto" seqName="seg_0"/>
+   <object objectType="Table" objectID="A0D41D8F-2E9F-A258-9875-9A51CF6EAFC1" name="Sede" seqName="seg_0"/>
+   <object objectType="Table" objectID="1EB54495-69CA-5571-F1C1-822D81A96021" name="Stock" seqName="seg_0"/>
+   <object objectType="Table" objectID="B2D64E12-352E-5D61-8363-F47FCAFC7F34" name="TipoUsuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="68C98CC7-91A4-C2A4-F145-AA73EF742F9D" name="Usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="433D6281-1468-3064-7D41-46097B6C1C78" name="detaDevol" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BFDC746-8E61-6898-090D-344C674F8B7F" name="detaPres" seqName="seg_0"/>
+   <object objectType="Table" objectID="E6D17C5A-17BE-9CBC-9446-483F5E6BC422" name="detaSoli" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B16E9E38-8A11-13E7-6681-C8762EFF686D" name="Carrera_Escuela_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CB45FDDA-180C-7410-374E-63FC7531A3D5" name="EncaDevol_EncaPres_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="479AC9FC-AF59-AAB3-123C-29CF2B41CCA9" name="EncaPres_EncaSoli_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8440101A-FC74-295F-1481-9AE2F0156578" name="EncaSoli_Usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="425B3F89-F0C9-ABCD-2CDC-4DB66D7FC3C9" name="Login_TipoUsuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D1801D6F-369F-BFDA-5247-BE803C72E676" name="Login_Usuario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E82E2DAE-A100-4FE2-3A0C-7BA90F297CF1" name="Producto_Categoria_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4828E821-4B1A-B289-B030-0A779FFD9CE5" name="Producto_Sede_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="80E503E6-AA52-1F82-E413-AD724359CFAD" name="Stock_Producto_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="601EFEF4-1985-024C-ECE3-641745C42320" name="Usuario_Carrera_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B8D03590-FAA4-D0F0-421F-DC469030A80D" name="Usuario_Login_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F28DD080-697B-F20E-E240-FA451CC2F141" name="Usuario_Sede_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6345EC31-747D-BB46-719B-D0C03E86B376" name="detaDevol_EncaDevol_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DE5CA892-8729-20B1-0427-B8DAFE96D6B1" name="detaDevol_Producto_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="46CC20B2-4CA3-0990-7CFB-3718CB9D2375" name="detaPres_EncaPres_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="27958BA5-2730-A70E-6BA4-FBCF4C6E0170" name="detaPres_Producto_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4BEB45DA-94F3-59AC-ABCD-9146EE0464F5" name="detaSoli_EncaSoli_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A0BC2DF9-834C-8E09-78A5-F89BDD18F4BB" name="detaSoli_Producto_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D17C5A-17BE-9CBC-9446-483F5E6BC422" name="detaSoli">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>46DEF53C-921A-2805-1902-6900DF705EB7</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EncaSoli_numSolicitud" id="168ADAF8-3805-629F-70D9-DA8EA7518704">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>89FD82EF-D711-BA6C-C78F-4500797C77A2</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>596355FB-D424-E015-4571-272DD9F8CD01</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BEB45DA-94F3-59AC-ABCD-9146EE0464F5" referredColumn="596355FB-D424-E015-4571-272DD9F8CD01"/>
+</associations>
+</Column>
+<Column name="linea" id="D047214D-C958-1065-0D93-0A6FD4F6A7F9">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>13825F2F-ED89-8D81-F6FE-78E2A718521C</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_codProducto" id="58DDDD94-A450-811D-0ADC-2DBA2DCB4D71">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>32C7F1FF-6056-FB45-F154-338F0978925C</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<delegate>558EA8DE-6E35-A834-D1EC-1E91ACCAEED9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0BC2DF9-834C-8E09-78A5-F89BDD18F4BB" referredColumn="558EA8DE-6E35-A834-D1EC-1E91ACCAEED9"/>
+</associations>
+</Column>
+<Column name="cantSolicitada" id="9020D845-1363-B337-952D-01FBB56F9060">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>96954799-125B-BC7F-A6CC-A6971E001744</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_Sede_Id_Sede" id="2A4615C8-73EB-F5C1-C83D-2D44EDF4E86F">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>755E427A-CC91-B53A-5545-397876AB5968</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>71133C1E-AFBD-9498-4676-5F04DA5703E2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0BC2DF9-834C-8E09-78A5-F89BDD18F4BB" referredColumn="71133C1E-AFBD-9498-4676-5F04DA5703E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA443EAF-183D-E4EF-459F-A6FB3CC98124" name="detaSoli_Producto_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:40 UTC</createdTime>
+<generatorID>43F9EAEA-4882-9E8B-0089-6D7F45AA7ACF</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58DDDD94-A450-811D-0ADC-2DBA2DCB4D71"/>
+<colUsage columnID="2A4615C8-73EB-F5C1-C83D-2D44EDF4E86F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D61712FA-BD82-BF7E-2B66-63EF9D1BB59F" name="detaSoli_EncaSoli_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:40 UTC</createdTime>
+<generatorID>9AA93805-B939-1C08-5743-7FE147BC362F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="168ADAF8-3805-629F-70D9-DA8EA7518704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

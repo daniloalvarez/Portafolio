@@ -1,0 +1,170 @@
+-- Generado por Oracle SQL Developer Data Modeler 4.1.1.887
+--   en:        2016-05-11 20:36:57 CLT
+--   sitio:      Oracle Database 11g
+--   tipo:      Oracle Database 11g
+
+
+CREATE TABLE Carrera
+  (
+    Escuela_Id_Escuela INTEGER NOT NULL ,
+    Id_Carrera         INTEGER NOT NULL ,
+    nomCarrera         VARCHAR2 (100)
+  ) ;
+ALTER TABLE Carrera ADD CONSTRAINT Carrera_PK PRIMARY KEY ( Id_Carrera ) ;
+
+
+CREATE TABLE Categoria
+  (
+    Id_categoria INTEGER NOT NULL ,
+    descripcion  VARCHAR2 (30)
+  ) ;
+ALTER TABLE Categoria ADD CONSTRAINT Categoria_PK PRIMARY KEY ( Id_categoria ) ;
+
+
+CREATE TABLE EncaDevol
+  (
+    id_devolucion        INTEGER NOT NULL ,
+    fechaDevolucion      DATE ,
+    EncaPres_Id_Prestamo INTEGER ,
+    comentario           VARCHAR2 (25 CHAR) ,
+    aprobadorDevol       INTEGER NOT NULL
+  ) ;
+ALTER TABLE EncaDevol ADD CONSTRAINT EncaDevol_PK PRIMARY KEY ( id_devolucion ) ;
+
+
+CREATE TABLE EncaPres
+  (
+    Id_Prestamo           INTEGER NOT NULL ,
+    FechaInicio           DATE ,
+    FechaFin              DATE ,
+    EncaSoli_numSolicitud INTEGER NOT NULL ,
+    comentario            VARCHAR2 (25 CHAR) ,
+    Aprobador             INTEGER NOT NULL
+  ) ;
+ALTER TABLE EncaPres ADD CONSTRAINT EncaPres_PK PRIMARY KEY ( Id_Prestamo ) ;
+
+
+CREATE TABLE EncaSoli
+  (
+    numSolicitud       INTEGER NOT NULL ,
+    fechaSolicitud     DATE ,
+    Usuario_rutUsuario INTEGER NOT NULL ,
+    Estado             VARCHAR (1) ,
+    comentario         VARCHAR2 (50)
+  ) ;
+ALTER TABLE EncaSoli ADD CONSTRAINT EncaSoli_PK PRIMARY KEY ( numSolicitud ) ;
+
+
+CREATE TABLE Escuela
+  (
+    Id_Escuela INTEGER NOT NULL ,
+    nomEscuela VARCHAR2 (100)
+  ) ;
+ALTER TABLE Escuela ADD CONSTRAINT Escuela_PK PRIMARY KEY ( Id_Escuela ) ;
+
+
+CREATE TABLE Login
+  (
+    Id_Login         INTEGER NOT NULL ,
+    RutUsuario       NUMBER NOT NULL ,
+    Id_TipoUsuario   INTEGER NOT NULL ,
+    Clave            VARCHAR2 (20) NOT NULL 
+  ) ;
+
+ALTER TABLE Login ADD CONSTRAINT Login_PK PRIMARY KEY ( Id_Login ) ;
+
+
+CREATE TABLE Producto
+  (
+    Id_categoria INTEGER NOT NULL ,
+    CodProducto            VARCHAR2 (30) NOT NULL ,
+    NomProducto            VARCHAR2 (100) ,
+    Imagen                 BLOB ,
+    fechaIngreso DATE ,
+    Precio       INTEGER ,
+    Estado       CHAR (1) ,
+    Comentario   VARCHAR2 (50) ,
+    Id_Sede INTEGER NOT NULL
+  ) ;
+ALTER TABLE Producto ADD CONSTRAINT Producto_PK PRIMARY KEY ( codProducto ) ;
+
+
+CREATE TABLE Sede
+  ( Id_Sede INTEGER NOT NULL , nomSede VARCHAR2 (50)
+  ) ;
+ALTER TABLE Sede ADD CONSTRAINT Sede_PK PRIMARY KEY ( Id_Sede ) ;
+
+
+CREATE TABLE Stock
+  (
+    Id_stock              INTEGER NOT NULL,
+    Producto_codProducto  VARCHAR2 (30) NOT NULL ,
+    PrestamoStock         INTEGER ,
+    SaldoStock            INTEGER ,
+    minStock              INTEGER ,
+    maxStock              INTEGER ,
+    Producto_Sede_Id_Sede INTEGER NOT NULL
+  ) ;
+ALTER TABLE Stock ADD CONSTRAINT Stock_PK PRIMARY KEY ( Id_stock ) ;
+
+CREATE TABLE TipoUsuario
+  (
+    Id_TipoUsuario INTEGER NOT NULL ,
+    nomTipoUsuario VARCHAR2 (20)
+  ) ;
+ALTER TABLE TipoUsuario ADD CONSTRAINT TipoUsuario_PK PRIMARY KEY ( Id_TipoUsuario ) ;
+
+
+CREATE TABLE Usuario
+  (
+    rutUsuario         INTEGER NOT NULL ,
+    dvUsuario          VARCHAR2 (1) ,
+    nomUsuario         VARCHAR2 (50) ,
+    paternoUsuario     VARCHAR2 (30) ,
+    maternoUsuario     VARCHAR2 (30) ,
+    mailUsuario        VARCHAR2 (100) ,
+    fono               INTEGER ,
+    Sede_Id_Sede       INTEGER NOT NULL ,
+    Carrera_Id_Carrera INTEGER NOT NULL ,
+    bloqueoUsuario     CHAR (1) ,
+    motivoBloqueo      VARCHAR2 (300) ,
+    Login_Id_Login     INTEGER NOT NULL
+  ) ;
+ALTER TABLE Usuario ADD CONSTRAINT Usuario_PK PRIMARY KEY ( rutUsuario ) ;
+
+
+CREATE TABLE detaDevol
+  (
+    idDetaDevol             INTEGER NOT NULL ,
+    EncaDevol_id_devolucion INTEGER NOT NULL ,
+    linea                   INTEGER ,
+    Producto_codProducto    VARCHAR2 (30 CHAR) NOT NULL ,
+    cantDevolucion          INTEGER ,
+    Producto_Sede_Id_Sede   INTEGER NOT NULL
+  ) ;
+ALTER TABLE detaDevol ADD CONSTRAINT detaDevol_PK PRIMARY KEY ( idDetaDevol ) ; 
+
+CREATE TABLE detaPres
+  (
+    idDetaPrestamo       INTEGER NOT NULL ,
+    EncaPres_idPrestamo  INTEGER NOT NULL ,
+    linea                INTEGER ,
+    Producto_codProducto VARCHAR2 (30 CHAR) NOT NULL ,
+    cantPrestamo         INTEGER ,
+    Producto_Id_Sede     INTEGER NOT NULL
+  ) ;
+ALTER TABLE detaPres ADD CONSTRAINT detaPres_PK PRIMARY KEY ( idDetaPrestamo ) ;
+
+CREATE TABLE detaSoli
+  (
+    IdSolicitud           INTEGER NOT NULL,
+    EncaSoli_numSolicitud INTEGER NOT NULL ,
+    linea                 INTEGER ,
+    Producto_codProducto  VARCHAR2 (30) NOT NULL ,
+    cantSolicitada        INTEGER ,
+    Producto_Sede_Id_Sede INTEGER NOT NULL
+  ) ;
+
+ALTER TABLE detaSoli ADD CONSTRAINT IdSolicitud_PK PRIMARY KEY ( IdSolicitud) ;
+
+commit;

@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-jul-2016, 1:53:29
+    Author     : HP
+*/
+h1{
+   color: yellow;
+   text-shadow: 3px 3px black;   
+}
+
+
+#tablaDetalleSoli td, #tablaEncaSoli td {
+    padding-left: 6px;
+}
+
+/* Titulos de la tabla de detalle */
+th{
+   padding: 2px;
+   background: #08088A;
+   color: white;    
+}
+
+td {
+   background: white; 
+   padding: 4px 10px;
+}
+
+#txtNumero {
+    width: 150px;
+    text-align: center;
+    border-radius: 5px 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+
+#txtFecha {
+    text-align: center;
+    width: 80px;
+    font-weight: bold;
+    padding: 2px 5px; 
+    border-radius: 5px 5px;
+}
+
+#txtSolicitante, #txtComentario, #txtMotivo, #txtEstado, #txtSede, #txtProducto, #txtCodigo {
+    width: 380px;
+    padding-left: 5px; 
+    text-align: left;
+    font-weight: bold;
+    border-radius: 5px 5px;    
+}
+
+#txtSolicitado, #txtPrestamo, #txtSaldo, #txtCodSede {
+    width: 50px;
+    padding: 2px 5px; 
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px 5px;    
+}
+
+.etiqueta{
+    color: #335599; 
+    font-weight: bold;
+}
+
+/* boton reenvio solicitud */
+#btnMiSolicitud, #btnVolver, #btnStock, #btnStockSede{
+    width: 160px;
+    height: 40px;
+    background: yellow;
+    padding: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: 3px 3px black; 
+
+}
+
+/* boton para editar solicitud */
+#btnPrestamo, #btnParcial, #btnRechazar{
+    width: 180px;
+    height: 40px;
+    background: red;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: 3px 3px black; 
+}
+
+#btnMiSolicitud:hover, #btnVolver:hover, #btnStock:hover, #btnPrestamo:hover, #btnParcial:hover, 
+    #btnRechazar:hover, #btnStockSede:hover{
+ background: #58ACFA;
+ color: black;
+}

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="433D6281-1468-3064-7D41-46097B6C1C78" name="detaDevol">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>4E23F6DF-5F9C-FA26-35C8-3B1B531B77EF</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EncaDevol_id_devolucion" id="A021ED8F-F796-AEC5-B2BF-A8BBE2A10D05">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>A985C9C0-508F-4BE0-33B4-BC5F4C865D2F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1951A143-DEB1-EE27-333E-6A9B4D9CAA18</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6345EC31-747D-BB46-719B-D0C03E86B376" referredColumn="1951A143-DEB1-EE27-333E-6A9B4D9CAA18"/>
+</associations>
+</Column>
+<Column name="linea" id="7C3251BB-004D-CFE5-CDED-4E651B1D31A1">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>53B54032-E393-0967-B3FD-4C7EC004F12A</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_codProducto" id="38C9BBA1-1642-38DB-68CA-F5B10CA8C219">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>FB8201B8-C4B0-9AF9-A1A0-EDF42D9AF56D</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<delegate>558EA8DE-6E35-A834-D1EC-1E91ACCAEED9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE5CA892-8729-20B1-0427-B8DAFE96D6B1" referredColumn="558EA8DE-6E35-A834-D1EC-1E91ACCAEED9"/>
+</associations>
+</Column>
+<Column name="cantDevolucion" id="2C5D4EC9-2FDB-EE3D-A01C-8BFE6906F8B4">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>A31F6692-23A9-7295-B94A-4481B9DED77F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_Sede_Id_Sede" id="8752A9CD-E137-377C-0115-E773BC48D840">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>E406C5D0-2FA5-115C-42C8-3515693BF67F</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>71133C1E-AFBD-9498-4676-5F04DA5703E2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE5CA892-8729-20B1-0427-B8DAFE96D6B1" referredColumn="71133C1E-AFBD-9498-4676-5F04DA5703E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C61F6A0C-E4E7-67F1-0707-A9875DF6E1F0" name="detaDevol_PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>37795E2D-A9CA-146B-7D64-2A9AB8EAF825</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="3BEEC1F1-A6BC-58F9-0F68-46B545D0CBC0" name="detaDevol_EncaDevol_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:40 UTC</createdTime>
+<generatorID>CFCBD8E6-42C8-A1D1-77FA-595E58CAFC1A</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A021ED8F-F796-AEC5-B2BF-A8BBE2A10D05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDCCECA4-0246-61B7-D761-A0450F442245" name="detaDevol_Producto_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:40 UTC</createdTime>
+<generatorID>0CC8387E-384E-4399-785D-465E6AF54CC4</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38C9BBA1-1642-38DB-68CA-F5B10CA8C219"/>
+<colUsage columnID="8752A9CD-E137-377C-0115-E773BC48D840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

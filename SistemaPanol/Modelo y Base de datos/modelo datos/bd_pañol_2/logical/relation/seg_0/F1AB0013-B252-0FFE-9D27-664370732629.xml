@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario Login FK" directorySegmentName="seg_0" id="F1AB0013-B252-0FFE-9D27-664370732629">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>47C8F15D-7608-095F-A6F8-D51D37B4E854</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>82444B7B-E52F-DECB-F517-5FD716758E02</sourcePk>
+<targetPk>BD7C2E36-D1C8-1DE5-2CA4-503E5E5FE2A8</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8DE1D0EA-E53C-8FDC-AC20-050CC307E2FD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>95711709-7214-651D-9D14-9C0AED59163F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12-jul-2016 17:53:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entidad.Encasoli" table="ENCASOLI" schema="SISTEMAPANOL" optimistic-lock="version">
+        <id name="numsolicitud" type="big_decimal">
+            <column name="NUMSOLICITUD" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="fechasolicitud" type="date">
+            <column name="FECHASOLICITUD" length="7" />
+        </property>
+        <property name="glosasolicitud" type="string">
+            <column name="GLOSASOLICITUD" length="200" />
+        </property>
+        <property name="usuarioRutusuario" type="big_decimal">
+            <column name="USUARIO_RUTUSUARIO" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="estado" type="string">
+            <column name="ESTADO" length="4" />
+        </property>
+        <property name="comentario" type="string">
+            <column name="COMENTARIO" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

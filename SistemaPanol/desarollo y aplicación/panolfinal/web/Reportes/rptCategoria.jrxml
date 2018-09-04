@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="53c040a8-9952-47b8-a055-5d9080afd5e7">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT * FROM CATEGORIA]]>
+	</queryString>
+	<field name="ID_CATEGORIA" class="java.math.BigDecimal"/>
+	<field name="DESCRIPCION" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="104" splitType="Stretch">
+			<staticText>
+				<reportElement x="154" y="58" width="269" height="36" uuid="d93967aa-c993-4c9f-ae78-7f7f77aaca3f"/>
+				<textElement>
+					<font size="24" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Reporte de Categorias]]></text>
+			</staticText>
+			<textField pattern="dd-MMM-yyyy">
+				<reportElement x="480" y="0" width="75" height="20" uuid="7e38267b-a5fd-4a62-8999-e1c57e8c5021"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="439" y="1" width="41" height="20" uuid="ba9c8215-0a54-4b9c-953c-09dfafb1eae7"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Fecha :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="439" y="18" width="41" height="20" uuid="b4108c01-ef14-4d91-8126-68f06c435ab2"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Hora :]]></text>
+			</staticText>
+			<textField pattern="hh:mm a">
+				<reportElement x="480" y="18" width="75" height="20" uuid="3257966d-b861-426e-85bd-0fe0199ef14f"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="1" width="253" height="20" uuid="5b1ee75b-a86e-429a-af6a-9bdc7bf1b6e0"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Sistema de Control de Pañol Sosoft]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="18" width="253" height="20" uuid="e2becc9e-3095-4d5b-b469-d06d769e991a"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[IP  Duoc UC]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="4" y="-20" width="551" height="20" uuid="20fcf436-fa85-4839-8284-c8aab5e83b43"/>
+			</rectangle>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="22" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="93" y="0" width="100" height="20" backcolor="#CCFFCC" uuid="8dcaa623-e53d-4b9a-a8a4-2c86d49f5a72"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Codigo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="192" y="0" width="262" height="20" backcolor="#CCFFCC" uuid="f25eb2de-45f0-461f-8877-895c0316d829"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Descripción]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="42" splitType="Stretch">
+			<textField>
+				<reportElement x="194" y="0" width="261" height="16" uuid="8a3d46e8-8b09-4aed-81e7-8feec999a91a"/>
+				<textFieldExpression><![CDATA[$F{DESCRIPCION}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="93" y="0" width="100" height="16" uuid="7dacc6af-372b-4661-bd3f-750c00027868"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{ID_CATEGORIA}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="72" splitType="Stretch">
+			<textField>
+				<reportElement x="455" y="52" width="100" height="20" uuid="99ea995f-b04b-4062-9fff-0ef4d2199ec8"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="154" y="22" width="197" height="50" uuid="bfa912cd-3143-4e20-a8f1-98f60cd57446"/>
+				<imageExpression><![CDATA["C:\\Users\\Danilo\\Documents\\NetBeansProjects\\PanolFinal\\web\\Reportes\\DuocUC2.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

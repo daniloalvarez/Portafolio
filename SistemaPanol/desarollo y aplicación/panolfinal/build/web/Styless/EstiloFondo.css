@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-jun-2016, 0:24:22
+    Author     : Miguel Pasten
+*/
+  body {
+    /*Ubicacion de la imagen */
+    background-image: url(../Imagenes/fondo.jpg);
+    
+    /* Imagen centrada vertical y horizontalmente en todo momento*/
+    background-position: center center;
+    
+    /* La imagen de fondo no se repite */
+    background-repeat: repeat;
+    
+    /* La imagen esta fija en el viewport, de modo que no se mueva cuando la altura del contenido
+       supere la altura de la imagen */
+ /*   background-size: cover;*/
+    
+    /* Fijamos un color de fondo para que se muestre mientras se esta cargando la imagen de fondo
+       o si tiene problemas para cargar la imagen */
+    background-color: #464646;        
+  }
+

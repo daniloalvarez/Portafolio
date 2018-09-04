@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EB54495-69CA-5571-F1C1-822D81A96021" name="Stock">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>CD62B2A3-D40A-5EDE-89EA-F4E4C67AFF99</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_codProducto" id="C215F0A3-90D4-2101-7B3A-3CE4964363CD">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>45036706-9A7B-2438-B598-EB0AFDA7F235</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<delegate>558EA8DE-6E35-A834-D1EC-1E91ACCAEED9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E503E6-AA52-1F82-E413-AD724359CFAD" referredColumn="558EA8DE-6E35-A834-D1EC-1E91ACCAEED9"/>
+</associations>
+</Column>
+<Column name="PrestamoStock" id="7C9FEABE-FF16-FBF2-4F52-FB4DCEA469AE">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>A4CE27AA-1EC8-43ED-8025-7AC112602D6A</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SaldoStock" id="8D5C49EA-B903-C828-3753-CFDA49AA84DD">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>8E0D654F-54F0-EB31-6C45-2FBED3D41CD1</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minStock" id="082D5E23-E667-89C7-5D0A-52BE5BD8D6D5">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>F0DFBFFF-B678-6B54-935E-76165D1E68F6</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maxStock" id="BA38BA5E-46DD-54EE-2C4C-05866287FB59">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>9E5F08C1-510A-5DC7-67B4-97967214BB65</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_Sede_Id_Sede" id="2BD70672-C66E-9A5A-7334-5E385F4A9F30">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>6EAF3A54-0C9E-2697-7FC9-8C9337DB0200</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>71133C1E-AFBD-9498-4676-5F04DA5703E2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E503E6-AA52-1F82-E413-AD724359CFAD" referredColumn="71133C1E-AFBD-9498-4676-5F04DA5703E2"/>
+</associations>
+</Column>
+<Column name="id_stock" id="01D78179-4BF4-41E9-09E1-B6CFF55D0F93">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>694C5FC5-9E1F-1ECB-0BCE-24123BCE75D1</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16958D16-E25C-0B89-48D0-6F620CFB4495" name="Stock_PK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>2D873455-AB58-F201-85EC-B4FDC4D0F0F0</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D78179-4BF4-41E9-09E1-B6CFF55D0F93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F345BA4-FFE8-720E-E0C6-73D660B652A6" name="Stock_Producto_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>B56E2941-1EF3-2242-219A-90A8B64E4211</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C215F0A3-90D4-2101-7B3A-3CE4964363CD"/>
+<colUsage columnID="2BD70672-C66E-9A5A-7334-5E385F4A9F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

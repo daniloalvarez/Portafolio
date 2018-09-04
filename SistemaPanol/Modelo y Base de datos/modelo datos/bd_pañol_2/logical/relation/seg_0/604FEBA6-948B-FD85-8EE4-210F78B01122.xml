@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EncaSolicitud Usuario FK" directorySegmentName="seg_0" id="604FEBA6-948B-FD85-8EE4-210F78B01122">
+<createdBy>cetecom</createdBy>
+<createdTime>2016-05-17 01:12:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<importedID>776E8174-6C45-E250-16D1-D8DB520784C6</importedID>
+<engineerTo>
+<item key="B2EEF8F1-B7D6-91E3-C16D-64BA3DB97AF8" value="true"/>
+</engineerTo>
+<sourcePk>BD7C2E36-D1C8-1DE5-2CA4-503E5E5FE2A8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95711709-7214-651D-9D14-9C0AED59163F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>844F6860-1A98-3F24-3ECC-ACB750CE4462</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-schema="SISTEMAPANOL"/>
+  <table-filter match-name="USUARIO"/>
+  <table-filter match-name="DETAPRES"/>
+  <table-filter match-name="STOCK"/>
+  <table-filter match-name="ESCUELA"/>
+  <table-filter match-name="ENCASOLI"/>
+  <table-filter match-name="LOGIN"/>
+  <table-filter match-name="DETADEVOL"/>
+  <table-filter match-name="DETASOLI"/>
+  <table-filter match-name="ENCAPRES"/>
+  <table-filter match-name="TIPOUSUARIO"/>
+  <table-filter match-name="ENCADEVOL"/>
+  <table-filter match-name="CARRERA"/>
+  <table-filter match-name="CATEGORIA"/>
+  <table-filter match-name="SEDE"/>
+  <table-filter match-name="PRODUCTO"/>
+</hibernate-reverse-engineering>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html> 
+    <head>
+  
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" type="text/css" href="Styless/EstiloFondo.css">  
+        <link rel="stylesheet" type="text/css" href="Styless/EstiloLogin.css">         
+        <title>Login de Ingreso Sistema Pañol</title>
+        <script>
+            function loginValidar(l) {
+
+                if (l.user.value === '')
+                {
+                    alert('ingrese usuario');
+                    return false;
+                }
+                if (l.pass.value === '')
+                {
+                    alert('Ingrese password');
+                    return false;
+                }
+                valor = document.getElementById("user").value;
+                
+                if (!(/^\d{8}$/.test(valor)))
+                {
+                    alert('Ingrese un Rut valido');
+                    return false;
+                }
+                return true; 
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1 class="titulo" align="center">Bienvenidos</h1>
+    <center>
+        <img src="Imagenes/DuocUC2.png" alt="" border="0"/>
+    </center>
+    <center>
+        <img src="Imagenes/Usuario1.png" alt="" border="0" />
+    </center>
+    <form action="ServletLogin" method="post" onsubmit="return loginValidar(this)">
+        <h3 align="center"> Sistema de Pañol Sosoft 2016 </h3>      
+        <center><p>Registro de Usuario Incorrecto<p/>
+        <table align="center">
+            <tr>
+                <td>Usuario:</td>
+                <td><input type="text" name ="user" id="user" required pattern="[0-9]{8}" placeholder="Ej: 16403336 (Sin DV)" maxlength="8"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pass" id="pass" maxlength="8" placeholder="*******"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3" id="tdCentro"><input type="submit" id="boton" value="Ingresar" onclick="validar()"></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-jun-2016, 1:44:59
+    Author     : Miguel Pasten
+*/
+h1{
+    font-size: 50px; 
+    color: white; 
+    text-shadow: 3px 3px black;     
+}
+
+.titulo{
+    margin: 2px;
+    padding: 8px;
+    font-size: 40px; 
+    color: white; 
+    text-shadow: 3px 3px black;     
+}
+
+/* Utilizado solo para pagina de inicio */
+h2{
+    padding: 3px;
+    width: 70%;
+    background: #FACC2E;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 25px;
+    color: white; 
+    text-shadow: 2px 2px black; 
+}
+
+/* Solo se utiliza este TAG para mensaje de error login ingresado */
+p{
+    font-size: 20px; 
+    color: red; 
+    font-weight: bold;
+}
+
+/* valores de tabla */
+table{
+    border-radius: 30px; 
+    border: 2px solid black; 
+    padding: 15px; 
+    border-style: dotted;    
+}
+
+td{
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* fila de la columna donde se encuentra el boton submit */
+#tdCentro{
+    text-align: center;
+}
+
+input{
+    border-radius: 5px 5px;
+}
+
+/* cuadro de texto de usuario y clave */
+#user,#pass{
+    padding: 4px;
+    border-radius: 10px 10px;
+}
+
+/* Cuadro de texto que obtiene el foco */
+#user:focus, #pass:focus {
+    background: #A9E2F3;
+}
+
+/* boton submit */
+#boton{
+    padding: 5px; 
+    width: 100px; 
+    margin-top: 10px;
+}

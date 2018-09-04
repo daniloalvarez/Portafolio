@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BFDC746-8E61-6898-090D-344C674F8B7F" name="detaPres">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>56E8FBCA-0E71-34C3-4E86-C3855B8B7B88</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EncaPres_Id_Prestamo" id="32B13730-B887-5E9A-7778-CA1454419B8B">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>CA6055DC-BD07-102D-5D7D-39BE432F5461</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>170221A6-1303-C766-C3D0-AE3F2BF45FDC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46CC20B2-4CA3-0990-7CFB-3718CB9D2375" referredColumn="170221A6-1303-C766-C3D0-AE3F2BF45FDC"/>
+</associations>
+</Column>
+<Column name="linea" id="D0EB6DED-1677-D363-1E8E-71114738BC1D">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>37C116A0-152B-FDE3-E108-CABB8D8BA78B</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_codProducto" id="8D2D21F9-E067-31CE-E04E-103D9F7346F7">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>56A1235F-2F21-5D05-8A73-4D14EE3BF7F0</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<delegate>558EA8DE-6E35-A834-D1EC-1E91ACCAEED9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27958BA5-2730-A70E-6BA4-FBCF4C6E0170" referredColumn="558EA8DE-6E35-A834-D1EC-1E91ACCAEED9"/>
+</associations>
+</Column>
+<Column name="cantPrestamo" id="3A9A673F-7817-12DD-7AAF-109137E33BA3">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>102D1D1D-E036-AEEE-B492-392EF1CD00E2</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_Sede_Id_Sede" id="2F503F8E-B225-AD43-4307-3B6FE6E80D13">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:39 UTC</createdTime>
+<generatorID>D18BD9AE-85C6-3A98-81C0-77638609965B</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>71133C1E-AFBD-9498-4676-5F04DA5703E2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27958BA5-2730-A70E-6BA4-FBCF4C6E0170" referredColumn="71133C1E-AFBD-9498-4676-5F04DA5703E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D49C06CD-9617-8CCE-A5D7-F46B4A544798" name="detaPres_Producto_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:40 UTC</createdTime>
+<generatorID>027D2AA3-1906-02FD-4644-75774DEEBA0C</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D2D21F9-E067-31CE-E04E-103D9F7346F7"/>
+<colUsage columnID="2F503F8E-B225-AD43-4307-3B6FE6E80D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44DA5176-D02E-1D1B-2A06-DBE1FCFE06FB" name="detaPres_EncaPres_FK">
+<createdBy>CARLOS.A.ROJASZ</createdBy>
+<createdTime>2016-06-06 22:31:40 UTC</createdTime>
+<generatorID>E9026532-CB94-C477-A7C5-3012DF1E6E02</generatorID>
+<ownerDesignName>Bd_Pañol_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B13730-B887-5E9A-7778-CA1454419B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

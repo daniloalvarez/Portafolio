@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="16D98B5C-E1D5-17F6-D022-8A14E638C802" name="Carrera" seqName="seg_0"/>
+   <object objectType="Entity" objectID="65B174E8-093F-02AC-6930-76E420F7DD6F" name="Categoria" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E1FCF200-5F60-D937-D325-0872B623819F" name="EncaDevol" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BC8C489E-0733-13A3-08FB-8222A5EF1B3D" name="EncaPres" seqName="seg_0"/>
+   <object objectType="Entity" objectID="844F6860-1A98-3F24-3ECC-ACB750CE4462" name="EncaSoli" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6C68460A-4A1D-EDC7-6564-039D7A799239" name="Escuela" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8DE1D0EA-E53C-8FDC-AC20-050CC307E2FD" name="Login" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A3DE4DCC-FC33-EBD1-95FF-70D8403A5DA5" name="Producto" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DBA1AB5A-D90E-FC3C-A157-C234279AAE0B" name="Sede" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CD62B2A3-D40A-5EDE-89EA-F4E4C67AFF99" name="Stock" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C03F6D7B-8A59-02E1-0321-3A4A3A89BA2D" name="TipoUsuario" seqName="seg_0"/>
+   <object objectType="Entity" objectID="95711709-7214-651D-9D14-9C0AED59163F" name="Usuario" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4E23F6DF-5F9C-FA26-35C8-3B1B531B77EF" name="detaDevol" seqName="seg_0"/>
+   <object objectType="Entity" objectID="56E8FBCA-0E71-34C3-4E86-C3855B8B7B88" name="detaPres" seqName="seg_0"/>
+   <object objectType="Entity" objectID="46DEF53C-921A-2805-1902-6900DF705EB7" name="detaSoli" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1E9E0416-7585-0F2E-D62B-8FC2203718AC" name="Carrera Escuela FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2D5528F1-681C-BE13-D482-694A48247E90" name="EncaDevolucion EncaPrestamo FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="43FE9279-7288-6AC5-088A-DF25D6FCF315" name="EncaPrestamo EncaSolicitud FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="604FEBA6-948B-FD85-8EE4-210F78B01122" name="EncaSolicitud Usuario FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1C48451A-0D80-B0DC-4654-9B623C29CE10" name="Login TipoUsuario FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4AFCA36F-AE0C-6C72-8674-DB8CD3DA51EC" name="Producto Categoria FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1B578FC2-7189-CBC0-C0AA-C6844CF2C7E7" name="Producto Sede FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B56E2941-1EF3-2242-219A-90A8B64E4211" name="Stock Producto FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9173A8B3-ECBC-1659-35D4-2A35FB801FEC" name="Usuario Carrera FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F1AB0013-B252-0FFE-9D27-664370732629" name="Usuario Login FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DADBF662-2F9E-A961-CB38-D88E86779E41" name="Usuario Sede FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CFCBD8E6-42C8-A1D1-77FA-595E58CAFC1A" name="detaDevolucion EncaDevolucion FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0CC8387E-384E-4399-785D-465E6AF54CC4" name="detaDevolucion Producto FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="027D2AA3-1906-02FD-4644-75774DEEBA0C" name="detaPrestamo Producto FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E9026532-CB94-C477-A7C5-3012DF1E6E02" name="detaPrestamo_EncaPrestamo_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="43F9EAEA-4882-9E8B-0089-6D7F45AA7ACF" name="detaSolicitud Producto FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9AA93805-B939-1C08-5743-7FE147BC362F" name="detaSolicitud_EncaSolicitud_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
